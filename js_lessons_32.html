@@ -4,17 +4,17 @@
 <head>
   <script type="text/javascript">
 
-var bodyparts = new Array ("head", "shoulders", "knees", "toes");
+var student = new Array(3);
 
-bodyparts.reverse();
-bodyparts.push ("tongue", "liver")
-bodyparts.sort ();
+for (i=0;i<3;i++){
+  student[i] = prompt ("Add something to the Array:", "");
+}
 
-var string1 = bodyparts.join(" | ")
-document.write(string1)
+document.write(student[0] + student[1] + student[2]);
+
 
 </script>
-</head> 
+</head>
 <body>
   <script type="text/javascript">
   </script>
